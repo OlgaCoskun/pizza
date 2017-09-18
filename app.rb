@@ -1,3 +1,4 @@
+#app.rb  выполняется на сервере
 #encoding: utf-8
 require 'rubygems'
 require 'sinatra'
