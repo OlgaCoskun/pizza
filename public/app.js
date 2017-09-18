@@ -2,9 +2,11 @@
 
     function something()
     {
-        var x = window.localStorage.getItem('aaa');
+        var x = window.localStorage.getItem('bbb');
+//умножаем на 1, чтобы string преобразовать в int
+        x = x*1 + 1;
 
-        window.localStorage.setItem('aaa', 555)
+        window.localStorage.setItem('bbb', x)
 
 
         alert(x);
