@@ -12,6 +12,8 @@ end
 
 
 get '/' do
+    #выбираем все записи из табл
+    @products = Product.all
 	erb :index
 end
 
