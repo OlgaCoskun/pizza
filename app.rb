@@ -10,7 +10,6 @@ set :database, 'sqlite3:pizza.db'
 class Product < ActiveRecord::Base
 end
 
-
 get '/' do
     #выбираем все записи из табл
     @products = Product.all
